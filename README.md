@@ -1,6 +1,7 @@
 # Crime Analysis
 
 Code, Data and Analysis regarding Crime & Intelligence Analysis, some data may be from my hometown of Indianapolis, and others may be of other publicly available sources.
+
 ---
 ## Repo Overview
 * `/data`: Data files such as incidents or extracted data from GIS ready to be moved into other applications such as Excel
