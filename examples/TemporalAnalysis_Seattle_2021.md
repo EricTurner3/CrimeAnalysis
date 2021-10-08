@@ -25,3 +25,8 @@ Burglary in beat B1
 Burglary in beat C1
 
 For beat B1, Saturday at Midnight has the overwhelming peak for burglary or breaking and entering incidents. However for beat C1, Tuesday at midnight is the hotspot. Doing a drilldown into beat would help station officers correctly to try and prevent or catch crime in the act. Pairing this information with addresses or GIS data can further drilldown hotspots of where officers could actually be stationed to help mitigate further issues.
+
+Unfortunately it looks like the latitude and longitude data has gone through some sort of process to standardize the dots so they are not accurate but roughly in the center of the block, as seen in this image of beat C1 where all of the dots are very rigid and grid-like:
+![GIS map of C1](../visuals/temporal_gis.png)
+
+If we select some of the features, such as the four dots in a straight line south of Lynn Street, then open an Attribute table, it returns 13 incidents for the four visible dots. This indicates the incidents are being stacked on these points and are not true to life.

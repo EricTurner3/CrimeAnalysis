@@ -7,3 +7,4 @@
 * [IMPD - CityProtect](https://cityprotect.com/agency/impd) - Data hub for incident data for IMPD on CityProtect
     * NOTE: While you can download bulk data from here, it misses crucial information. I wrote a custom python script in `./scripts` to download incident data from CityProtect's public (undocumented) API with lat & lng for use in GIS software
 * [Seattle Crime Data 2008-Present](https://data.seattle.gov/Public-Safety/SPD-Crime-Data-2008-Present/tazs-3rd5) - Large CSV file with over 900k records for incidents in Seattle
+* [Seattle Police Beats](https://data.seattle.gov/Public-Safety/Seattle-Police-Department-Beats/nnxn-434b) - Shapefile for Seattle's police beats for GIS use
